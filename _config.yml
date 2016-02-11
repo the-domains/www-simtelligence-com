@@ -22,19 +22,19 @@ color:
   brandStrength: 0.5168634
   lightness: 0.02571676205843687
   brandColors:
-    - '#000000'
     - '#FFFFFF'
-    - '#FF9204'
-    - '#1D78F2'
-    - '#A4FB3C'
+    - '#D0DEE9'
+    - '#0E6497'
+    - '#3980AA'
+    - '#649CBD'
   rhythmicContrast: 0.6239067353308201
 typography_spectrum: 0.5330612745601684
-layout_spectrum: 0.1543002
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+layout_spectrum: 0.9317032
 cta:
   bucket: null
   version: null
   domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
