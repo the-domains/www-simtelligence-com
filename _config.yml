@@ -1,28 +1,40 @@
-name: www.simtelligence.com
 favicon: null
-layout_spectrum: 0.9449671155307442
-typography_spectrum: 0.5330612745601684
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: www.simtelligence.com
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
+  saturation: 0.01224519871175289
   brandStrength: 0.6959519307129085
   lightness: 0.02571676205843687
-  saturation: 0.012245198711752892
+  brandColors:
+    - '#000000'
+    - '#FFFFFF'
+    - '#FF9204'
+    - '#1D78F2'
+    - '#A4FB3C'
   rhythmicContrast: 0.6239067353308201
-purpose: []
+typography_spectrum: 0.5330612745601684
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9449671155307442
+analytics:
+  twitter: null
+  google: null
+  facebook: null
